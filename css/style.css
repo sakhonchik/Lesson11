@@ -1,0 +1,148 @@
+/* Сперва общие правила */
+
+* {
+    box-sizing: border-box
+}
+
+/* Потом селекторы по тегам */
+
+html {
+    font-family: sans-serif;
+}
+
+main {
+    width: 300px;
+    margin: 0px auto;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Колонки */
+
+.row {
+    display: flex;
+    margin: 20px -10px;
+}
+
+.col {
+    flex: auto;
+    margin: 0px 10px;
+}
+
+
+/* Потом селекторы по классам */
+
+.text-input {
+    border: solid 1px #EBDCF9;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.button {
+    width: 60%;
+    height: 40px;
+    margin-top: 24px;
+    border: solid 1px white;
+    background-color: #554AF0;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Потом специальные правила по страничкам */
+
+/* Login*/
+
+.input-login {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: solid 1px #EBDCF9;
+    padding: 8px 16px;
+}
+
+/* Страничка жанров и тегов */
+
+.my-genre{
+    margin: 10px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.genre-first {
+    background-color: azure;
+    width: 100%;
+}
+
+.genre-second {
+    background-color: aquamarine;
+    width: 80%;
+}
+
+.genre-third {
+    background-color: antiquewhite;
+    width: 60%;
+}
+
+.genre-fourth {
+    background-color: #EBDCF9;
+    width: 40%;
+}
+
+/* Страничка популярного */
+
+.cover {
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+/* Страничка подписки  */
+
+.box-green {
+    background-color: azure;
+    margin: 10px 0px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.box-purple {
+    background-color: #EBDCF9;
+    margin: 10px 0px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.text-large {
+    font-size: 13px;
+    width: 70%;
+}
+
+.button-link {
+    color: white;
+    border-radius: 4px;
+    background: #554AF0;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    margin: 10px 10px;
+    text-decoration: none;
+}
